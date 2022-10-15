@@ -1,0 +1,101 @@
+@import url('https://fonts.google.com/specimen/Open+Sans');
+
+body{
+    background-color: hsl(257, 40%, 49%);
+    background-image: url('./images/bg-desktop.svg');
+    color: white;
+}
+
+.container{
+    margin-top: 2rem;
+}
+
+.desc{
+    margin-left: 2rem;
+}
+
+.btn-regis{
+    background-color: white;
+    width: 250px;
+    height: 50px;
+    border-radius: 20px;
+    color: hsl(257, 40%, 49%);
+    box-shadow: 2px 2px 10px rgba(0,0,0,0.8);
+    border: white;
+}
+
+.fa-facebook{
+    margin-left: 5rem;
+    width: 35px;
+    height: 35px;
+    padding-top: 5px;
+    border: 2px solid white;
+    border-radius: 50%;
+    font-size: 20px;
+    color: white;
+    float: right 5rem;
+}
+.fa-twitter{
+    margin-left: .5rem;
+    width: 35px;
+    height: 35px;
+    padding-left: 3px;
+    padding-top: 5px;
+    border: 2px solid white;
+    border-radius: 50%;
+    font-size: 20px;
+    color: white;
+    float: right 5rem;
+}
+.fa-instagram{
+    margin-left: .5rem;
+    width: 35px;
+    height: 35px;
+    padding-left: 2px;
+    padding-top: 5px;
+    border: 2px solid white;
+    border-radius: 50%;
+    font-size: 20px;
+    color: white;
+    float: right 5rem;
+}
+.logo{
+    width: 10rem;
+    float: left;
+}
+
+
+
+@media screen and (min-width:375px){
+    .image{
+        width: 355px;
+    }
+
+    .btn-regis{
+        margin-top: 2rem;
+    }
+
+     h1{
+        margin-top: 2rem;
+    }
+
+    .icon{
+        margin-right: 2rem;
+    }
+
+    footer p{
+        margin-bottom: 2rem;
+        text-align: center;
+        margin-left: 1rem;
+    }
+
+}
+
+@media only screen and (min-width:1280px){
+    .image{
+        width: 696px;
+        float: left;
+        margin-top: 1rem;
+    }
+
+}
